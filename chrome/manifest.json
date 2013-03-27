@@ -1,11 +1,11 @@
 {
   "name": "Dribbble Dimmer",
-  "version": "0.9",
+  "version": "1.0",
   "manifest_version": 2,
   "description": "Enables the viewing of shots over a dimmed background.",
   "content_scripts": [ {
     "css": [ "dribbble-dimmer.css" ],
-    "js": [ "jquery-1.7.1.min.js", "dribbble-dimmer.js" ],
+    "js": [ "jquery-1.9.1.min.js", "dribbble-dimmer.js" ],
     "matches": [ "http://www.dribbble.com/*", "http://dribbble.com/*" ]
   }],
   "icons" : {

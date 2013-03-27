@@ -9,11 +9,11 @@
   left: 0;
   z-index: 800; 
 }
-#single-img {
+.single-img {
   position: relative;
   z-index: 900;
 }
-#single-img span#dd-toggle {
+.single-img span#dd-toggle {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -30,11 +30,11 @@
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in;
 }
-#single-img:hover span#dd-toggle {
+.single-img:hover span#dd-toggle {
   opacity: 1;
   -webkit-transition-delay: 0.2s;
 }
-#single-img span#dd-toggle:hover {
+.single-img span#dd-toggle:hover {
   opacity: 0;
   cursor: none;
   -webkit-transition-delay: 0s;
