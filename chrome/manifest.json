@@ -1,15 +1,19 @@
 {
-  "name": "Dribbble Dimmer",
-  "version": "1.0",
-  "manifest_version": 2,
-  "description": "Enables the viewing of shots over a dimmed background.",
-  "content_scripts": [ {
-    "css": [ "dribbble-dimmer.css" ],
-    "js": [ "jquery-1.9.1.min.js", "dribbble-dimmer.js" ],
-    "matches": [ "http://www.dribbble.com/*", "http://dribbble.com/*" ]
-  }],
-  "icons" : {
-    "48" : "icon-48.png",
-    "128" : "icon-128.png"
-  }
+	"manifest_version": 2,
+
+	"name": "Dribbble Dimmer",
+	"version": "1.0",
+	"description": "Enables the viewing of shots over a dimmed background.",
+  	"content_scripts": [ {
+    	"css": [ "dribbble-dimmer.css" ],
+    	"js": [ "jquery-1.9.1.min.js", "dribbble-dimmer.js" ],
+    	"matches": [ "http://www.dribbble.com/*", "http://dribbble.com/*" ]
+  		}],
+  		"icons" : {
+			"48" : "icon-48.png",
+			"128" : "icon-128.png"
+  		},
+	"web_accessible_resources": [
+		"lightbulb.png"
+  	]
 }
