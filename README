@@ -1,3 +1,13 @@
 Dribbble Dimmer is a simple Chrome extension that enables the viewing of the shots on Dribbble.com over a dimmed background. It provides a subtle icon in the corner of the large view and dims the background on mouse hover.
 
+Based on an original project placed on GitHub by Jason Long.
+
 You can add this to Chrome via the included .crx file or by enabling "Developer Mode" in Chrome and packing it yourself.
+
+================
+VERSION HISTORY
+================
+
+1.1 	5/2/14 	Updated to fix new Dribbble's new usage of https protocol
+
+1.0 			Initial project re-launch from Jason Long's outdated codebase
