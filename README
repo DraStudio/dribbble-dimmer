@@ -11,3 +11,7 @@ VERSION HISTORY
 1.1 	5/2/14 	Updated to fix new Dribbble's new usage of https protocol
 
 1.0 			Initial project re-launch from Jason Long's outdated codebase
+=======
+You can add this to Chrome via the included .crx file or by enabling "Developer Mode" in Chrome and packing it yourself.
+
+You can also install it right from the Chrome Web Store: https://chrome.google.com/webstore/detail/dribbble-dimmer/pffkjibngjmdccmjhboaanmeplichjgj
